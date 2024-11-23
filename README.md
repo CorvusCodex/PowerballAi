@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/CorvusCodex/PowerballAi/blob/main/PowerballAi.png?raw=true">
+  <img src="https://github.com/CorvusCodex/PowerballAi/blob/main/PowerballAI.png?raw=true">
 </p>
 
 ## PowerballAi
