@@ -74,7 +74,7 @@ def predict_numbers(model, val_data, num_features):
     # Get the index of the highest probability output for the Powerball (0-25)
     powerball_index = np.argmax(powerball_predictions, axis=-1)
     # Shift and scale the index to get a Powerball number between 1 and 26
-    powerball_number = (powerball_index % 26) + 1
+    powerball_number = (powerball_index % 27) + 1
 
     # Add the predicted Powerball number to the other predictions
     predicted_numbers = np.insert(predicted_numbers, num_features - 1, powerball_number, axis=1)
