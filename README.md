@@ -7,14 +7,14 @@
 PowerballAi is a lottery prediction artificial intelligence that uses machine learning to predict the winning numbers.
 
 ## If you need powerfull and advanced AI with GUI, you can buy the compiled standalone application for windows from here:
-https://www.buymeacoffee.com/CorvusCodex/e/155047?from_page=extras
+https://buymeacoffee.com/corvuscodex/e/320434
 
 ------
-PowerBall AI
-https://buymeacoffee.com/corvuscodex/e/
+Lottery AI
+https://buymeacoffee.com/corvuscodex/e/155047
 
 MegaMillionsAI
-https://buymeacoffee.com/corvuscodex/e/
+https://buymeacoffee.com/corvuscodex/e/325420
 
 
 ## Installation
