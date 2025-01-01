@@ -43,10 +43,6 @@ https://www.buymeacoffee.com/CorvusCodex/e/154462
 >ETH & BNB: 0x68B6D33Ad1A3e0aFaDA60d6ADf8594601BE492F0<br>
 >Buy me a coffee: https://www.buymeacoffee.com/CorvusCodex
 
-## Buy me some equipment (To develop more powerfull versions and to develop standalone versions for MacOS):
-https://www.buymeacoffee.com/corvuscodex/wishlist
-
-
 ### Support my work for month or year so i can continue to work on my projects:
 https://www.buymeacoffee.com/corvuscodex/membership
 
@@ -56,7 +52,7 @@ The code within this repository comes with no guarantee, the use of this code is
 Please keep in mind that while PowerballAi.py uses advanced machine learning techniques to predict lottery numbers, there is no guarantee that its predictions will be accurate. Lottery results are inherently random and unpredictable, so it is important to use PowerballAi responsibly and not rely solely on its predictions.
 
 
-MIT License
+## MIT License
 
 Copyright (c) 2025 CorvusCodex
 
