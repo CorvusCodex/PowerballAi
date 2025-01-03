@@ -6,7 +6,7 @@
 
 PowerballAi is a lottery prediction artificial intelligence that uses machine learning to predict the winning numbers.
 
-## If you need powerfull and advanced AI with GUI, you can buy the compiled standalone application for windows from here:
+## If you need powerfull and advanced AI with GUI + 4 AI tools + 20 Math tools, you can buy the compiled standalone application for windows from here:
 https://buymeacoffee.com/corvuscodex/e/320434
 
 ------
