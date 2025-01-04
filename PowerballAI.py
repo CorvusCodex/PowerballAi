@@ -57,11 +57,8 @@ def predict_numbers(model, val_data, num_features):
     # Predict probabilities for the first five numbers (excluding the Powerball column)
     predictions_first_five = model.predict(val_data[:, :-1])
 
-    # Get the indices that would sort the predictions, but we only want the top 5
-    indices = np.argsort(predictions_first_five, axis=1)[:, -(num_features - 1):]
-
-    # Clip indices to ensure they're within the valid range of the sliced val_data
-    indices = np.clip(indices, 0, val_data[:, :-1].shape[1] - 1)
+    # Get the indices that would sort the predictions
+    indices = np.argsort(predictions_first_five, axis=1)
 
     # Get the actual predicted numbers (not just their probabilities) based on the indices
     predicted_numbers = np.take_along_axis(val_data[:, :-1], indices, axis=1)
@@ -70,18 +67,15 @@ def predict_numbers(model, val_data, num_features):
     powerball_predictions = model.predict(val_data[:, -1:])  # Use only the last column
     powerball_predictions = np.squeeze(powerball_predictions)  # Remove an unnecessary dimension
 
-
-    # Get the index of the highest probability output for the Powerball (0-25)
+    # Get the index of the highest probability output for the Powerball
     powerball_index = np.argmax(powerball_predictions, axis=-1)
-    # Shift and scale the index to get a Powerball number between 1 and 26
-    powerball_number = (powerball_index % 27) + 1
+    # No limit imposed on the Powerball number now
+    powerball_number = powerball_index + 1
 
     # Add the predicted Powerball number to the other predictions
     predicted_numbers = np.insert(predicted_numbers, num_features - 1, powerball_number, axis=1)
 
     return predicted_numbers
-
-
 
 # Function to print the predicted numbers
 def print_predicted_numbers(predicted_numbers):
