@@ -10,7 +10,7 @@ PowerballAi is a lottery prediction artificial intelligence that uses machine le
 https://buymeacoffee.com/corvuscodex/e/320434
 
 
-For MacOs:
+For Intel MacOs:
 In 2 days
 
 ------
