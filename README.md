@@ -14,6 +14,7 @@ For Intel MacOs:
 In 2 days
 
 ------
+More AI Software:
 Lottery AI
 https://buymeacoffee.com/corvuscodex/e/155047
 
