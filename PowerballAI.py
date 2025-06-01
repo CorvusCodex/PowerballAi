@@ -6,7 +6,6 @@ from keras import layers
 from art import text2art
 
 def print_intro():
-    # Generate ASCII art with the text "PowerballAi"
     ascii_art = text2art("PowerballAi")
     # Print the introduction and ASCII art
     print("============================================================")
