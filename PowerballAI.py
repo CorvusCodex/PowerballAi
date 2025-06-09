@@ -7,7 +7,6 @@ from art import text2art
 
 def print_intro():
     ascii_art = text2art("PowerballAi")
-    # Print the introduction and ASCII art
     print("============================================================")
     print("PowerballAi")
     print("Created by: Corvus Codex")
