@@ -20,7 +20,6 @@ def print_intro():
     print(ascii_art)
     print("Powerball prediction artificial intelligence")
 
-# Function to load data from a file and preprocess it
 def load_data():
     # Load data from file, ignoring white spaces and accepting unlimited length numbers
     data = np.genfromtxt('data.txt', delimiter=',', dtype=int)
