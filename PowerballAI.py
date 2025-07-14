@@ -20,7 +20,6 @@ def print_intro():
     print("Powerball prediction artificial intelligence")
 
 def load_data():
-    # Load data from file, ignoring white spaces and accepting unlimited length numbers
     data = np.genfromtxt('data.txt', delimiter=',', dtype=int)
     # Replace all -1 values with 0
     data[data == -1] = 0
