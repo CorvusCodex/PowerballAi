@@ -21,7 +21,6 @@ def print_intro():
 
 def load_data():
     data = np.genfromtxt('data.txt', delimiter=',', dtype=int)
-    # Replace all -1 values with 0
     data[data == -1] = 0
     # Split data into training and validation sets
     train_data = data[:int(0.8*len(data))]
