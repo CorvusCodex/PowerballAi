@@ -29,7 +29,6 @@ def load_data():
     max_value = np.max(data)
     return train_data, val_data, max_value
 
-# Function to create the model
 def create_model(num_features, max_value):
     # Create a sequential model
     model = keras.Sequential()
