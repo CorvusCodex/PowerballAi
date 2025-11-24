@@ -6,16 +6,22 @@
 
 PowerballAi is a lottery prediction artificial intelligence that uses machine learning to predict the winning numbers.
 
-## If you need powerfull and advanced AI with GUI + 4 AI tools + 20 Math tools, you can buy the compiled standalone application for windows from here:
-https://buymeacoffee.com/corvuscodex/e/320434
- 
-------
-More AI Software:
-Lottery AI
-https://buymeacoffee.com/corvuscodex/e/155047
+<hr>
+## If you need powerfull and advanced AI's with GUI, you can get the compiled standalone applications from here:
 
-MegaMillionsAI
-https://buymeacoffee.com/corvuscodex/e/325420
+### LotteryAI+ for Windows 11 OS from here:
+
+https://www.buymeacoffee.com/CorvusCodex/e/155047?from_page=extras
+
+## Basic lightweight Lottery AI:
+
+https://buymeacoffee.com/corvuscodex/e/467187
+
+### (Business users) Advanced LotteryAI+ Hyperion for Windows 11 OS from here:
+
+https://buymeacoffee.com/corvuscodex/e/426958
+
+<hr>
 
 
 ## Installation
